@@ -28,7 +28,7 @@ SELECT
   END,
   NOW(),
   NOW()
-FROM GENERATE_SERIES(1, 10_000_000) seq;
+FROM GENERATE_SERIES(1, 10000000) seq;
 "
 
 if [ -z "$DATABASE_URL" ]; then

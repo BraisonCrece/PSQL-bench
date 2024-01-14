@@ -4,7 +4,7 @@
 # Set each of these:
 # Or use existing value for RIDESHARE_DB_PASSWORD from ~/.pgpass
 #
-# export RIDESHARE_DB_PASSWORD=$(openssl rand -hex 12)
+# export RIDESHARE_DB_PASSWORD=c09751446aaecc0276ccf900
 export DB_URL="postgres://postgres:@localhost:5432/postgres"
 export DATABASE_URL="postgres://owner:@localhost:5432/rideshare_development"
 
